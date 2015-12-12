@@ -1,0 +1,28 @@
+{
+  "name": "twemoji-basename",
+  "version": "1.0.0",
+  "description": "Because sometimes you want to use twemoji but without all the library bloat",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "~4.2.2"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/twemoji-basename"
+  },
+  "keywords": [
+    "twemoji",
+    "basename",
+    "codepoint",
+    "emoji"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/twemoji-basename/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/twemoji-basename"
+}
