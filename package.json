@@ -4,10 +4,13 @@
   "description": "Because sometimes you want to use twemoji but without all the library bloat",
   "main": "index.js",
   "devDependencies": {
-    "tape": "~4.2.2"
+    "tape": "~4.2.2",
+    "browserify": "~12.0.1",
+    "size-table": "~0.1.0"
   },
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "size": "browserify index.js | size-table twemoji-basename"
   },
   "repository": {
     "type": "git",
